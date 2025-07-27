@@ -8,7 +8,7 @@ import Project from '../components/sections/Projects'
 import Contact from '../components/sections/Contact'
 
 function Home() {
-    const [isLoaded, setIsLoaded] = useState(true)
+    const [isLoaded, setIsLoaded] = useState(false)
     function toggleLoaded() {
         setIsLoaded(true)
     }

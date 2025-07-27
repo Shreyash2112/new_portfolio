@@ -25,7 +25,7 @@ function Contact() {
                                     <MdOutlineEmail className="h-6 w-6 text-primary" />
                                 </div>
                                 <div>
-                                    <h4 className="font-medium">Email</h4>
+                                    <h4 className="font-medium text-left">Email</h4>
                                     <a
                                         href="mailto:shreyashpurankar21@gmail.com"
                                         className="text-muted-foreground hover:text-primary transition-colors "
@@ -39,7 +39,7 @@ function Contact() {
                                     <MdOutlinePhoneIphone className="h-6 w-6 text-primary" />
                                 </div>
                                 <div>
-                                    <h4 className="font-medium">Phone</h4>
+                                    <h4 className="font-medium text-left">Phone</h4>
                                     <a
                                         href="tel: +919096772270"
                                         className="text-muted-foreground hover:text-primary transition-colors "
@@ -53,7 +53,7 @@ function Contact() {
                                     <MdOutlineLocationOn className="h-6 w-6 text-primary" />
                                 </div>
                                 <div>
-                                    <h4 className="font-medium">Location</h4>
+                                    <h4 className="font-medium text-left">Location</h4>
                                     <a className="text-muted-foreground hover:text-primary transition-colors ">
                                         Nagpur, Maharashtra, India
                                     </a>

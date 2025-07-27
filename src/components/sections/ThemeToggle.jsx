@@ -3,7 +3,7 @@ import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import cn from '../../lib/utils';
 
 function ThemeToggle({ closeMenu = () => { } }) {
-    const [isDark, setIsDark] = useState(false)
+    const [isDark, setIsDark] = useState(true)
 
     useEffect(() => {
         const storedTheme = localStorage.getItem("theme")

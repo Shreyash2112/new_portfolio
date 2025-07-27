@@ -29,7 +29,8 @@ function About() {
                                 Get In Touch
                             </a>
                             <a
-                                href="#contact"
+                                href="https://drive.google.com/file/d/11yReF1BlXN5sIP3iQZcIZHxvgQ8Gft_U/view?usp=sharing"
+                                target="_blank"
                                 className="flex gap-2 items-center justify-center px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
                                 Download CV<FiDownload className="w-5 h-5 text-foreground animate-bounce" />
