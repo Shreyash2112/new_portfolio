@@ -1,4 +1,5 @@
-import { FiDownload } from "react-icons/fi";
+import { FiBriefcase, FiDownload, FiUser } from "react-icons/fi";
+import { FaCode } from "react-icons/fa6";
 
 function About() {
     return (
@@ -33,6 +34,51 @@ function About() {
                             >
                                 Download CV<FiDownload className="w-5 h-5 text-foreground animate-bounce" />
                             </a>
+                        </div>
+
+                    </div>
+                    <div className="grid grid-cols-1 gap-6">
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <FaCode className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg ">Web Development</h4>
+                                    <p className="text-muted-foreground">
+                                        Building fast, responsive, and user-first applications with modern tech.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <FiUser className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg ">UI / UX Design</h4>
+                                    <p className="text-muted-foreground">
+                                        Crafting intuitive, visually engaging interfaces that put user experience first.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <FiBriefcase className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg ">Tech Exploration
+                                    </h4>
+                                    <p className="text-muted-foreground">
+                                        Always leveling up with new tech, certifications, and real-world projects.
+                                    </p>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>

@@ -34,7 +34,7 @@ function NavBar() {
     }
 
     return (
-        <nav className={cn("fixed w-full z-40 transition-all duration-300 border-b border-primary/20",
+        <nav className={cn("fixed w-full z-40 transition-all duration-300 ",
             isScrolled ? "py-3 bg-background/5 backdrop-blur-lg shadow-xs" : "py-5")}
         >
             <div className="container flex items-center justify-between">
@@ -67,7 +67,7 @@ function NavBar() {
                     {isMenuOpen ? <RiCloseLargeFill className="text-xl text-foreground" /> : <CiMenuBurger className="text-xl text-foreground" />}
                 </button>
 
-                <div className={cn("fixed inset-0 bg-background/60 backdrop-blur-xs z-40 flex flex-col items-center justify-center transition-all md:hidden duration-300",
+                <div className={cn("fixed inset-0 bg-background/60 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-all md:hidden duration-300",
                     isMenuOpen
                         ? "opacity-100 pointer-events-auto"
                         : "opacity-0 pointer-events-none")}
