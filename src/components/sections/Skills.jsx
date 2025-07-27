@@ -9,8 +9,8 @@ function Skills() {
             className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[7vw]"
         >
             <div className="text-center mb-8">
-                <h2>What I Use</h2>
-                <div className="w-24 h-1 bg-primary mx-auto mt-2"></div>
+                <h2 className='text-3xl md:text-4xl font-bold text-center'> <span className='text-primary'>Technical</span> Skills</h2>
+                <div className="w-24 h-1 bg-foreground mx-auto mt-2 mb-12"></div>
                 <p className="text-foreground mt-4 text-lg font-semibold">Here&apos;s a collection of the technical skills and expertise I&apos;ve honed through diverse projects and certifications</p>
             </div>
 

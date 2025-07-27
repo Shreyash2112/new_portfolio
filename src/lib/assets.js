@@ -56,6 +56,10 @@ export const skillsInfo = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
+        name: "Shadcn/ui",
+        logo: "https://ui.shadcn.com/apple-touch-icon.png",
+      },
+      {
         name: "Boost (C++ library)",
         logo: "https://www.boost.org/doc/contributor-guide/_images/boost-logo.png",
       },
@@ -122,5 +126,82 @@ export const skillsInfo = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
       },
     ],
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Vibely",
+    description:
+      "Vibely is a fast, minimalist social media app built with React.js and TypeScript, designed for a sleek, futuristic user experience.",
+    image: "/public/projects/vibely.png",
+    tags: [
+      "React.js",
+      "React Router",
+      "TypeScript",
+      "TanStack Query",
+      "Tailwind CSS",
+      "Shadcn/ui",
+      "Appwrite",
+    ],
+    demoUrl: "https://vibely-lyart.vercel.app",
+    githubUrl: "https://github.com/Shreyash2112/vibely",
+  },
+  {
+    id: 2,
+    title: "ThoughCove",
+    description:
+      "ThoughtCove Blog is a modern, minimalist app for organizing and publishing your ideas with ease.",
+    image: "/public/projects/thoughtCove.png",
+    tags: [
+      "React.js",
+      "React Router",
+      "JavaScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "TinyMCE",
+      "Appwrite",
+    ],
+    demoUrl: "https://thought-cove.vercel.app",
+    githubUrl: "https://github.com/Shreyash2112/Thought-Cove",
+  },
+  {
+    id: 3,
+    title: "Cash Trail",
+    description:
+      "Cash Trail is a simple, modern expense tracker app I built to help you monitor spending and manage your finances with ease.",
+    image: "/public/projects/cashTrail.png",
+    tags: ["React.js", "React Router", "JavaScript", "Firebase", "CSS"],
+    demoUrl: "https://expense-tracker-dbf11.web.app",
+    githubUrl: "https://github.com/Shreyash2112/expense-tracker",
+  },
+  {
+    id: 4,
+    title: "Explorer",
+    description:
+      "Explorer is a sleek React and TypeScript app for browsing country data in a clean, intuitive interface.",
+    image: "/public/projects/explorer.png",
+    tags: ["React.js", "React Router", "TypeScript", "Tailwind CSS"],
+    demoUrl: "https://country-explorer-tau-seven.vercel.app",
+    githubUrl: "https://github.com/Shreyash2112/Country_Explorer",
+  },
+  {
+    id: 5,
+    title: "Secure String",
+    description: "Instantly generate strong passwords—fast, simple, secure.",
+    image: "/public/projects/secureStringer.png",
+    tags: ["React.js", "JavaScript", "Tailwind CSS"],
+    demoUrl: "https://secure-string.vercel.app",
+    githubUrl: "https://github.com/Shreyash2112/secureString",
+  },
+  {
+    id: 6,
+    title: "Noble Rates",
+    description: "Instantly convert currencies—fast, simple, accurate.",
+    image: "/public/projects/nobleRates.png",
+    tags: ["React.js", "JavaScript", "Tailwind CSS"],
+    demoUrl: "https://noble-rates.vercel.app/",
+    githubUrl: "https://github.com/Shreyash2112/noble_rates",
   },
 ];

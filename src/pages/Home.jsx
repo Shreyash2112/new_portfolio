@@ -4,6 +4,8 @@ import LoadingScreen from '../components/LoadingScreen'
 import Hero from '../components/sections/Hero'
 import About from '../components/sections/About'
 import Skills from '../components/sections/Skills'
+import Project from '../components/sections/Projects'
+import Contact from '../components/sections/Contact'
 
 function Home() {
     const [isLoaded, setIsLoaded] = useState(true)
@@ -22,6 +24,8 @@ function Home() {
                         <Hero />
                         <About />
                         <Skills />
+                        <Project />
+                        <Contact />
                     </main>
                     {/* Skills in the form of card with hover effect */}
                     {/* Projects in the form of slider with hover effect */}

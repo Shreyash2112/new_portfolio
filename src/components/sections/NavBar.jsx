@@ -1,17 +1,16 @@
 import { useEffect, useState } from "react"
 import cn from "../../lib/utils"
 import ThemeToggle from "./ThemeToggle"
-import { IoCloseCircleOutline } from "react-icons/io5";
-import { TiThMenuOutline } from "react-icons/ti";
-import { IoIosMenu } from "react-icons/io";
 import { CiMenuBurger } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa6";
 import { RiCloseLargeFill } from "react-icons/ri";
+import { FaLinkedin } from "react-icons/fa";
 
 const navItems = [
     { name: "Home", href: "#hero" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
-    { name: "Project", href: "#project" },
+    { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
 ]
 
@@ -41,7 +40,6 @@ function NavBar() {
                 <a className="text-xl text-primary font-bold flex-items-center" href="#hero">
                     <span className="z-10 relative">
                         <span className="text-glow text-foreground">Shreyash Purankar </span>
-                        Portfolio
                     </span>
                 </a>
 
@@ -55,6 +53,16 @@ function NavBar() {
                             {item.name}
                         </a>
                     ))}
+
+                    <div className="flex gap-8">
+                        <a href="" className="text-foreground hover:text-primary transition-colors duration-300">
+                            <FaLinkedin size={22} />
+                        </a>
+                        <a href="" className="text-foreground hover:text-primary transition-colors duration-300">
+                            <FaGithub size={22} />
+                        </a>
+
+                    </div>
                     <ThemeToggle />
                 </div>
 
@@ -64,7 +72,20 @@ function NavBar() {
                     className="z-50 md:hidden text-foreground"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
-                    {isMenuOpen ? <RiCloseLargeFill className="text-xl text-foreground" /> : <CiMenuBurger className="text-xl text-foreground" />}
+                    {isMenuOpen ? (
+                        <RiCloseLargeFill className="text-xl text-foreground" />
+                    ) : (
+                        <div className="flex gap-4 items-center justify-center">
+                            <a href="" className="text-foreground hover:text-primary transition-colors duration-300">
+                                <FaLinkedin size={24} />
+                            </a>
+                            <a href="" className="text-foreground hover:text-primary transition-colors duration-300">
+                                <FaGithub size={24} />
+                            </a>
+
+                            <CiMenuBurger className="text-xl text-foreground" />
+                        </div>
+                    )}
                 </button>
 
                 <div className={cn("fixed inset-0 bg-background/60 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-all md:hidden duration-300",
