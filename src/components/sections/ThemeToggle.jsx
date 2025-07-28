@@ -1,39 +1,38 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import cn from '../../lib/utils';
 
-function ThemeToggle({ closeMenu = () => { } }) {
-    const [isDark, setIsDark] = useState(true)
+function ThemeToggle() {
+    const [isDarkMode, setIsDarkMode] = useState(false);
 
     useEffect(() => {
-        const storedTheme = localStorage.getItem("theme")
-        if (storedTheme === "dark") {
-            setIsDark(true)
-            document.documentElement.classList.add("dark")
+        const storedTheme = localStorage.getItem("theme");
+        if (storedTheme === "light") {
+            setIsDarkMode(false);
         } else {
-            setIsDark(false)
-            document.documentElement.classList.remove("dark")
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("theme", "dark");
+            setIsDarkMode(true);
         }
-    }, [])
+    }, []);
 
     function toggle() {
-        if (isDark) {
-            document.documentElement.classList.remove("dark")
-            localStorage.setItem("theme", "light")
-            setIsDark(false)
+        if (isDarkMode) {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem("theme", "light");
+            setIsDarkMode(false);
         } else {
-            document.documentElement.classList.add("dark")
-            localStorage.setItem("theme", "dark")
-            setIsDark(true)
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("theme", "dark");
+            setIsDarkMode(true);
         }
-        closeMenu()
-    }
+    };
 
     return (
-        <button onClick={toggle} className={cn("md:pl-5 z-50 rounded-full transition-colors duration-300", "focus:outline-hidden")}>
-            {isDark ?
-                <IoSunnyOutline className='h-6 w-6 text-orange-400' /> :
-                <IoMoonOutline className='h-6 w-6 text-blue-900' />}
+        <button onClick={toggle} className={cn("z-50 rounded-full transition-colors duration-300", "focus:outline-hidden")}>
+            {isDarkMode ?
+                <IoSunnyOutline size={22} className=' text-orange-400' /> :
+                <IoMoonOutline size={22} className=' text-blue-900' />}
         </button >
     )
 }

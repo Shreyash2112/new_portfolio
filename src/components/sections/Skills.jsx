@@ -39,12 +39,12 @@ function Skills() {
                                 {category.skills.map((skill) => (
                                     <div
                                         key={skill.name}
-                                        className="flex flex-col gap-2 items-center justify-center  bg-background border-1 border-primary/30 py-2 px-2 rounded-3xl sm:py-2 sm:px-2 text-center"
+                                        className="flex flex-col gap-2 items-center justify-center bg-background border-1 border-primary/30 py-2 px-2 rounded-3xl sm:py-2 sm:px-2 text-center"
                                     >
                                         <img
                                             src={skill.logo}
                                             alt={`${skill.name} logo`}
-                                            className="w-6 h-6 sm:w-7 sm:h-7 "
+                                            className="w-6 h-6 sm:w-7 sm:h-7"
                                         />
                                         <div className="text-xs sm:text-sm text-foreground">
                                             {skill.name}

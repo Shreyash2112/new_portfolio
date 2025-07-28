@@ -135,7 +135,7 @@ export const projects = [
     title: "Vibely",
     description:
       "Vibely is a fast, minimalist social media app built with React.js and TypeScript, designed for a sleek, futuristic user experience.",
-    image: "/public/projects/vibely.png",
+    image: "/projects/vibely.png",
     tags: [
       "React.js",
       "React Router",
@@ -153,7 +153,7 @@ export const projects = [
     title: "ThoughCove",
     description:
       "ThoughtCove Blog is a modern, minimalist app for organizing and publishing your ideas with ease.",
-    image: "/public/projects/thoughtCove.png",
+    image: "/projects/thoughtCove.png",
     tags: [
       "React.js",
       "React Router",
@@ -171,7 +171,7 @@ export const projects = [
     title: "Cash Trail",
     description:
       "Cash Trail is a simple, modern expense tracker app I built to help you monitor spending and manage your finances with ease.",
-    image: "/public/projects/cashTrail.png",
+    image: "/projects/cashTrail.png",
     tags: ["React.js", "React Router", "JavaScript", "Firebase", "CSS"],
     demoUrl: "https://expense-tracker-dbf11.web.app",
     githubUrl: "https://github.com/Shreyash2112/expense-tracker",
@@ -181,7 +181,7 @@ export const projects = [
     title: "Explorer",
     description:
       "Explorer is a sleek React and TypeScript app for browsing country data in a clean, intuitive interface.",
-    image: "/public/projects/explorer.png",
+    image: "/projects/explorer.png",
     tags: ["React.js", "React Router", "TypeScript", "Tailwind CSS"],
     demoUrl: "https://country-explorer-tau-seven.vercel.app",
     githubUrl: "https://github.com/Shreyash2112/Country_Explorer",
@@ -190,7 +190,7 @@ export const projects = [
     id: 5,
     title: "Secure String",
     description: "Instantly generate strong passwords—fast, simple, secure.",
-    image: "/public/projects/secureStringer.png",
+    image: "/projects/secureStringer.png",
     tags: ["React.js", "JavaScript", "Tailwind CSS"],
     demoUrl: "https://secure-string.vercel.app",
     githubUrl: "https://github.com/Shreyash2112/secureString",
@@ -199,7 +199,7 @@ export const projects = [
     id: 6,
     title: "Noble Rates",
     description: "Instantly convert currencies—fast, simple, accurate.",
-    image: "/public/projects/nobleRates.png",
+    image: "/projects/nobleRates.png",
     tags: ["React.js", "JavaScript", "Tailwind CSS"],
     demoUrl: "https://noble-rates.vercel.app/",
     githubUrl: "https://github.com/Shreyash2112/noble_rates",

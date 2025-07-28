@@ -17,7 +17,7 @@ function LoadingScreen({ onComplete }) {
 
                 setTimeout(() => {
                     onComplete()
-                }, 1000);
+                }, 500);
             }
         }, 100)
 
@@ -25,8 +25,8 @@ function LoadingScreen({ onComplete }) {
     }, [])
     return (
         <div className={cn("fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center")}>
-            <PiCodeDuotone className={cn(" w-16 h-16 text-gray-100 mb-10")} />
-            <div className={cn("mb-4 text-5xl font-bold")}>
+            <PiCodeDuotone className={cn(" w-12 h-12 lg:w-20 lg:h-20 text-gray-100 mb-5")} />
+            <div className={cn("mb-4 text-3xl md:text-5xl font-bold")}>
                 {text}<span className={cn("animate-blink ml-1")}>|</span>
             </div>
 
