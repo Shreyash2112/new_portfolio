@@ -17,9 +17,9 @@ function About() {
 
                         <h3 className="text-2xl font-semibold">Turning Ideas Into Robust, Engaging Web Experiences</h3>
 
-                        <p className="text-muted-foreground">Passionate about design, coding, and problem-solving, I turn ideas into fast, visually polished web apps—blending technical skill with aesthetic intuition for truly engaging results.</p>
+                        <p className="text-muted-foreground">Passionate about design, coding, and problem solving, I turn ideas into fast, visually polished web apps, blending technical skill with aesthetic intuition for truly engaging results.</p>
 
-                        <p>With every project, I build from the ground up—creating clean, responsive interfaces with modern frontend tools to deliver seamless, user-focused digital experiences that solve real problems.</p>
+                        <p>With every project, I build from the ground up creating clean, responsive interfaces with modern frontend tools to deliver seamless, user focused digital experiences that solve real problems.</p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a
@@ -47,7 +47,7 @@ function About() {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg ">Web Development</h4>
                                     <p className="text-muted-foreground">
-                                        Building fast, responsive, and user-first applications with modern tech.
+                                        Building fast, responsive, and user first applications with modern tech.
                                     </p>
                                 </div>
                             </div>
